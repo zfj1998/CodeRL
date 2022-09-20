@@ -14,7 +14,7 @@ from tqdm import tqdm
 import pickle as pkl 
 import numpy as np 
 from collections import Counter 
-from transformers import RobertaTokenizer, T5ForConditionalGeneration
+from transformers import RobertaTokenizer, T5ForConditionalGeneration  # transformers/models/t5/modeling_t5.py
 import datasets.utils as dsutils
 
 def generate_prompt(args, test_case_path, prompt_path, solutions_path, tokenizer, 
